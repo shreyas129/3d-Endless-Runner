@@ -988,13 +988,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a9c8d4443a7a541bda233de8c83f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segementMap01: {fileID: 1089717398}
-  segementMap02: {fileID: 239392251}
-  segementMap03: {fileID: 1049203429}
-  segementMap04: {fileID: 0}
-  segementMap05: {fileID: 0}
-  segementMap06: {fileID: 0}
-  segementMap07: {fileID: 0}
+  segment:
+  - {fileID: 1089717398}
+  - {fileID: 239392251}
+  - {fileID: 1049203429}
+  zPos: 50
+  creatingSegment: 0
+  segmentNum: 0
 --- !u!4 &291185453
 Transform:
   m_ObjectHideFlags: 0
@@ -3513,13 +3513,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.23344536, y: 0, z: 0, w: 0.97236997}
-  m_LocalPosition: {x: 0.22, y: 3.06, z: -4.53}
+  m_LocalRotation: {x: 0.19936788, y: 0, z: 0, w: 0.97992474}
+  m_LocalPosition: {x: 0, y: 4, z: -6.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1801559308}
-  m_LocalEulerAnglesHint: {x: 27, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 23, y: 0, z: 0}
 --- !u!4 &995785923 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4777469181809006, guid: 2bd413b982191d54396bb381188bb4d0, type: 3}

@@ -2,11 +2,9 @@ using UnityEngine;
 
 public class CollisionDetect : MonoBehaviour
 {
-//    [SerailizeFeild]
-//    void OnTriggerEnter(Collider other)
-//    {
-//    coinFX.Play();
-//    MasterInfo.coinCount += 1;
-//        this.gameObject.SetActive(false);
-//    }
+    [SerializeField] GameObject thePlayer;
+    void OnTriggerEnter(Collider other)
+    {
+        thePlayer.GetComponent<PlayerMovement>().enabled = false;
+    }
 }
